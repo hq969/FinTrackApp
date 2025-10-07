@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:MyFinanceApp.Views"
+       x:Class="MyFinanceApp.AppShell">
+  <ShellItem>
+    <ShellSection Title="Home">
+      <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+    </ShellSection>
+    <ShellSection Title="Transactions">
+      <ShellContent ContentTemplate="{DataTemplate views:TransactionsPage}" />
+    </ShellSection>
+    <ShellSection Title="Reports">
+      <ShellContent ContentTemplate="{DataTemplate views:ReportsPage}" />
+    </ShellSection>
+    <ShellSection Title="Settings">
+      <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </ShellSection>
+  </ShellItem>
+</Shell>
