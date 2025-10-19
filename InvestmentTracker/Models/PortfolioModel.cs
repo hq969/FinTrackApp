@@ -1,0 +1,1 @@
+namespace InvestmentTracker.Models { public class PortfolioModel { public double TotalInvested { get; set; } public double CurrentValue { get; set; } public double ProfitLoss => CurrentValue - TotalInvested; public double ROI => TotalInvested == 0 ? 0 : (ProfitLoss / TotalInvested) * 100; } }

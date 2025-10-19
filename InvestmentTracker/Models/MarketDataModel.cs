@@ -1,0 +1,1 @@
+namespace InvestmentTracker.Models { public class MarketDataModel { public string Symbol { get; set; } public double CurrentPrice { get; set; } public double ChangePercent { get; set; } public DateTime LastUpdated { get; set; } } }

@@ -1,0 +1,1 @@
+namespace InvestmentTracker.Models { public class InvestmentModel { public int Id { get; set; } public string InvestmentName { get; set; } public double Amount { get; set; } public string Category { get; set; } public DateTime Date { get; set; } public double CurrentValue { get; set; } } }
